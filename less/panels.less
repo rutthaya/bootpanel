@@ -1,0 +1,24 @@
+/* Generic pane rules */
+.p-row, .p-col { overflow: hidden; position: absolute; }
+.p-row { left: 0; right: 0; }
+.p-col { top: 0; bottom: 0; }
+.scroll-x { overflow-x: auto; }
+.scroll-y { overflow-y: auto; }
+
+/* Bootstrap overrides */
+.row-fluid.p-row { 
+	.offsetX-p-row (@index) when (@index > 0) {
+      (~'.offset@{index}') { .offset-p-row(@index); }
+      .offsetX-p-row(@index - 1);
+    }
+    
+    .offsetX-p-row (0) {}
+
+    .offset-p-row (@columns) {
+      margin-left: (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) + (@fluidGridGutterWidth);
+      *margin-left: (@fluidGridColumnWidth * @columns) + (@fluidGridGutterWidth * (@columns - 1)) - (.5 / @gridRowWidth * 100 * 1%) + @fluidGridGutterWidth - (.5 / @gridRowWidth * 100 * 1%);
+    }
+	.offsetX-p-row(@gridColumns);
+}
+
+
