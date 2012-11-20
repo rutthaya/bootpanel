@@ -5870,18 +5870,18 @@ a.badge:hover {
 
 /* Generic pane rules */
 
-.p-row,
-.p-col {
+.panelrow,
+.panelcol {
   position: absolute;
   overflow: hidden;
 }
 
-.p-row {
+.panelrow {
   right: 0;
   left: 0;
 }
 
-.p-col {
+.panelcol {
   top: 0;
   bottom: 0;
 }
@@ -5896,62 +5896,62 @@ a.badge:hover {
 
 /* Bootstrap overrides */
 
-.row-fluid.p-row .offset12 {
+.row-fluid.panelrow .offset12 {
   margin-left: 102.12765957446808%;
   *margin-left: 102.02127659574467%;
 }
 
-.row-fluid.p-row .offset11 {
+.row-fluid.panelrow .offset11 {
   margin-left: 93.61702127659574%;
   *margin-left: 93.51063829787232%;
 }
 
-.row-fluid.p-row .offset10 {
+.row-fluid.panelrow .offset10 {
   margin-left: 85.1063829787234%;
   *margin-left: 84.99999999999999%;
 }
 
-.row-fluid.p-row .offset9 {
+.row-fluid.panelrow .offset9 {
   margin-left: 76.59574468085106%;
   *margin-left: 76.48936170212764%;
 }
 
-.row-fluid.p-row .offset8 {
+.row-fluid.panelrow .offset8 {
   margin-left: 68.08510638297872%;
   *margin-left: 67.9787234042553%;
 }
 
-.row-fluid.p-row .offset7 {
+.row-fluid.panelrow .offset7 {
   margin-left: 59.574468085106375%;
   *margin-left: 59.46808510638297%;
 }
 
-.row-fluid.p-row .offset6 {
+.row-fluid.panelrow .offset6 {
   margin-left: 51.063829787234035%;
   *margin-left: 50.95744680851063%;
 }
 
-.row-fluid.p-row .offset5 {
+.row-fluid.panelrow .offset5 {
   margin-left: 42.5531914893617%;
   *margin-left: 42.4468085106383%;
 }
 
-.row-fluid.p-row .offset4 {
+.row-fluid.panelrow .offset4 {
   margin-left: 34.04255319148936%;
   *margin-left: 33.93617021276596%;
 }
 
-.row-fluid.p-row .offset3 {
+.row-fluid.panelrow .offset3 {
   margin-left: 25.53191489361702%;
   *margin-left: 25.425531914893618%;
 }
 
-.row-fluid.p-row .offset2 {
+.row-fluid.panelrow .offset2 {
   margin-left: 17.02127659574468%;
   *margin-left: 16.914893617021278%;
 }
 
-.row-fluid.p-row .offset1 {
+.row-fluid.panelrow .offset1 {
   margin-left: 8.51063829787234%;
   *margin-left: 8.404255319148938%;
 }
